@@ -6,8 +6,8 @@ target 'Flixr' do
   use_frameworks!
 
   # Pods for Flixr
-  pod 'Alamofire'
-  pod 'AlamofireImage'
+  pod 'Alamofire’
+  pod 'AlamofireImage', '~> 3.3'
   pod 'SwiftyJSON'
   pod 'MBProgressHUD'
 

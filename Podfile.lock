@@ -7,7 +7,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
-  - AlamofireImage
+  - AlamofireImage (~> 3.3)
   - MBProgressHUD
   - SwiftyJSON
 
@@ -17,6 +17,6 @@ SPEC CHECKSUMS:
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
 
-PODFILE CHECKSUM: 71eae374ac7b48cbd9e6f444fb30acfbe9a0d12a
+PODFILE CHECKSUM: a3635cad20a5a9e68c8d67019db1f44e0029bc76
 
 COCOAPODS: 1.1.1
