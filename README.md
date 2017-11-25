@@ -103,7 +103,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![week 2 flix](https://user-images.githubusercontent.com/21361861/33227102-f5c59e68-d169-11e7-9131-dcf043e082a5.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
