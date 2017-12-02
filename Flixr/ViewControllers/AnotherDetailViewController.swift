@@ -38,7 +38,7 @@ class AnotherDetailViewController: UIViewController {
             let baseURLString = "https://image.tmdb.org/t/p/w500"
             
             let backdropURL = URL(string: baseURLString + backdropPathString)!
-            backDropImageView.af_setImage(withURL: backdropURL)
+            backdropImageView.af_setImage(withURL: backdropURL)
             
             let posterPathURL = URL(string: baseURLString + posterPathString)!
             posterImageView.af_setImage(withURL: posterPathURL)
