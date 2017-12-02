@@ -196,6 +196,7 @@
                                         </view>
                                         <connections>
                                             <outlet property="posterImageView" destination="Lo0-QV-iaK" id="cQn-DY-py6"/>
+                                            <segue destination="tZU-yf-VcJ" kind="show" id="xeW-OC-jME"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -212,6 +213,59 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4hX-HV-irN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="0.80000000000000004" y="762.36881559220399"/>
+        </scene>
+        <!--Another Detail View Controller-->
+        <scene sceneID="Fc1-Ls-sVV">
+            <objects>
+                <viewController id="tZU-yf-VcJ" customClass="AnotherDetailViewController" customModule="Flixr" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="b9U-sR-DdP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qTT-wT-kpC">
+                                <rect key="frame" x="0.0" y="64" width="375" height="270"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KKW-rc-bEJ">
+                                <rect key="frame" x="16" y="246" width="114" height="175"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wonder Woman" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HcM-CB-uTd">
+                                <rect key="frame" x="138" y="342" width="218" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Release Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="psB-4n-5Qf">
+                                <rect key="frame" x="138" y="399" width="101" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Overview" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LBi-X9-PGj">
+                                <rect key="frame" x="17" y="429" width="343" height="167"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="Tca-C7-5GJ"/>
+                    </view>
+                    <connections>
+                        <outlet property="backdropImageView" destination="qTT-wT-kpC" id="55G-Ff-YOS"/>
+                        <outlet property="overviewLabel" destination="LBi-X9-PGj" id="yxW-kp-hYQ"/>
+                        <outlet property="posterImageView" destination="KKW-rc-bEJ" id="FF2-vu-hEy"/>
+                        <outlet property="releaseDateLabel" destination="psB-4n-5Qf" id="G7K-8I-lxY"/>
+                        <outlet property="titleLabel" destination="HcM-CB-uTd" id="zqe-hy-jmt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WLn-43-FAc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="752.79999999999995" y="762.36881559220399"/>
         </scene>
         <!--Superhero-->
         <scene sceneID="bE3-hg-dig">
